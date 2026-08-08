@@ -2,6 +2,6 @@ An archive of old web pages previously published on popfloor.com.
 
 Available folders:
 
-- continuouspoeple
+- continuouspeople
 - outsiders
 - tvps
