@@ -1,0 +1,15 @@
+
+$DOCUMENT {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #000000;
+} 
+
+BODY, P, TD, TH, DIV, BLOCKQUOTE, DL, UL, OL {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #000000;
+}
+
+
+  
