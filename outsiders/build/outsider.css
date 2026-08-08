@@ -1,0 +1,61 @@
+
+$DOCUMENT {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #000000;
+} 
+
+BODY {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #000000;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+P, TD, TH, DIV, BLOCKQUOTE, DL, UL, OL {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #000000;
+}
+
+H1 {
+  font-family: Arial;
+  font-size: 15pt;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+H2 {
+  font-family: Arial;
+  font-size: 12pt;
+  color: #000000;
+}
+
+H3 {
+  font-family: Arial;
+  font-size: 12pt;
+  color: #000000;
+}
+
+H4 {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #000000;
+}
+
+A:link {
+  color: #C63800;
+  text-decoration: none;
+}
+
+A:visited {
+  color: #D97047;
+  text-decoration: none;
+}
+
+A:hover { 
+  color: #3C92C8;
+  text-decoration: none;
+}
+  
