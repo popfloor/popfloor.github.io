@@ -26,34 +26,32 @@
       background: #EFF7D6;
       border-radius: 12px;
       padding: 24px;
-      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
     }
 
     h1 {
       margin: 0 0 20px;
       font-size: 1.3rem;
       font-weight: 600;
+    }
+
+    h1 a {
+      color: #555;
       text-decoration: none;
     }
 
-    h1:active { 
-      color: #3C92C8;
-      text-decoration: none;
-    }
-
-    h1:visited {
+    h1 a:visited {
       color: #C63800;
-      text-decoration: none;
     }
 
-    h1:hover { 
+    h1 a:hover,
+    h1 a:active {
       color: #3C92C8;
-      text-decoration: none;
     }
 
     #now-playing {
       margin-bottom: 12px;
-      color: #bbb;
+      color: #888;
       font-size: 0.95rem;
     }
 
@@ -72,16 +70,19 @@
       padding: 11px 12px;
       border-radius: 6px;
       cursor: pointer;
-      transition: background 0.15s;
+      transition:
+        background 0.15s,
+        color 0.15s;
     }
 
     .playlist li:hover {
-      background: #333;
+      background: #DFE5C8;
+      color: #444;
     }
 
     .playlist li.active {
-      background: #3a3a3a;
-      color: #555;
+      background: #D2D9BA;
+      color: #444;
       font-weight: 600;
     }
   </style>
@@ -156,5 +157,6 @@
     }
   });
 </script>
+
 </body>
 </html>
